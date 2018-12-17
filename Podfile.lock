@@ -1,0 +1,45 @@
+PODS:
+  - BitmovinPlayer (2.15.0)
+  - Demo (1.0.0)
+  - Ori-ios-sdk (1.0.0)
+  - YLProgressBar (3.11.0)
+
+DEPENDENCIES:
+  - BitmovinPlayer (from `https://github.com/bitmovin/bitmovin-player-ios-sdk-cocoapod.git`, tag `2.15.0`)
+  - Demo (from `https://github.com/shamaahlawat/Demo.git`)
+  - Ori-ios-sdk (from `https://github.com/shamaahlawat/Ori-ios-sdk.git`)
+  - YLProgressBar (~> 3.11.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YLProgressBar
+
+EXTERNAL SOURCES:
+  BitmovinPlayer:
+    :git: https://github.com/bitmovin/bitmovin-player-ios-sdk-cocoapod.git
+    :tag: 2.15.0
+  Demo:
+    :git: https://github.com/shamaahlawat/Demo.git
+  Ori-ios-sdk:
+    :git: https://github.com/shamaahlawat/Ori-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  BitmovinPlayer:
+    :git: https://github.com/bitmovin/bitmovin-player-ios-sdk-cocoapod.git
+    :tag: 2.15.0
+  Demo:
+    :commit: 0c6cce5335f13cd3e052d7c76965953a869e07e3
+    :git: https://github.com/shamaahlawat/Demo.git
+  Ori-ios-sdk:
+    :commit: a5a5153665a52c65831b05043f554213dd69e71c
+    :git: https://github.com/shamaahlawat/Ori-ios-sdk.git
+
+SPEC CHECKSUMS:
+  BitmovinPlayer: 08d788e843c4ac9d2e5001fa857b95322b3c7f9e
+  Demo: 1af1df5907a62f021d9aab5622149e416b6f6c76
+  Ori-ios-sdk: 36da1b33e147e6cc7351ea1e037c35485f8a7cdb
+  YLProgressBar: 0c0796a6e9b5e5d5040d15c8911e802b67ccb939
+
+PODFILE CHECKSUM: 5f0d1020dda328f53b4940f925f1d510aa92fe1a
+
+COCOAPODS: 1.6.0.beta.2

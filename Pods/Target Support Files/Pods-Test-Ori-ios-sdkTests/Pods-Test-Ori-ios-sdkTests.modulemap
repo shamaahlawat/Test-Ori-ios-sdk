@@ -1,0 +1,6 @@
+framework module Pods_Test_Ori_ios_sdkTests {
+  umbrella header "Pods-Test-Ori-ios-sdkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

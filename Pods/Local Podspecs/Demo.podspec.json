@@ -1,0 +1,20 @@
+{
+  "name": "Demo",
+  "version": "1.0.0",
+  "summary": "Demo description",
+  "description": "Creating a library for demo purpose",
+  "homepage": "https://github.com/shamaahlawat/Demo",
+  "license": "MIT",
+  "authors": {
+    "Shama Ahlawat": "shama@oriserve.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/shamaahlawat/Demo.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "Demo/**/*.{swift}",
+  "requires_arc": true
+}
