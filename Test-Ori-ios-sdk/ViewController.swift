@@ -10,7 +10,6 @@ import UIKit
 import Ori_ios_sdk
 
 class ViewController: UIViewController {
-
     
     @IBOutlet weak var label: UILabel!
     
@@ -48,13 +47,25 @@ class ViewController: UIViewController {
 //   DOING MANUALLY  --> its running for one sec
     
     @IBAction func button(_ sender: UIButton) {
-        let button = UIButton()
+//        let button = UIButton()
+        let button:UIButton = UIButton(frame: CGRect(x: 100, y: 400, width: 100, height: 50))
+        button.setTitle("Add", for: .normal)
+        button.backgroundColor = UIColor.red
          print("function working")
-        button.addTarget(self, action:#selector(self.click(_:)), for: .touchUpInside)
+        button.addTarget(self, action:#selector(click(_:)), for: .touchUpInside)
+        self.view.addSubview(button)
         }
     
        @objc func click(_: UIButton!) {
-        print("click")
+        print("button clicked")
     }
+    
+    
+    //When we need to pass parameters
+//    self.addTarget(self, action: myAction, for: UIControlledEvent)
+//
+//    myAction(){
+//    @obj.methodYouWantToCall(//parameters//)
+//    }
 }
 
