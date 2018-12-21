@@ -14,6 +14,7 @@
 		26B7852F21C77FAE0043EA0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B7852D21C77FAE0043EA0C /* LaunchScreen.storyboard */; };
 		26B7853A21C77FAE0043EA0C /* Test_Ori_ios_sdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7853921C77FAE0043EA0C /* Test_Ori_ios_sdkTests.swift */; };
 		26B7854521C77FAE0043EA0C /* Test_Ori_ios_sdkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B7854421C77FAE0043EA0C /* Test_Ori_ios_sdkUITests.swift */; };
+		26FABDD521CBC4350029A71D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FABDD421CBC4350029A71D /* SecondViewController.swift */; };
 		52BA49121840033F4CCB1151 /* Pods_Test_Ori_ios_sdkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A290B4036AA3BC2A503AF9F6 /* Pods_Test_Ori_ios_sdkUITests.framework */; };
 		9377650BAA7C648017B43FE2 /* Pods_Test_Ori_ios_sdkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F129935DD719717AB10076F /* Pods_Test_Ori_ios_sdkTests.framework */; };
 		FC86E6FA1C61724E7ABADA33 /* Pods_Test_Ori_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC379258D1CBEB880C6257D /* Pods_Test_Ori_ios_sdk.framework */; };
@@ -55,6 +56,7 @@
 		26B7854021C77FAE0043EA0C /* Test-Ori-ios-sdkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-Ori-ios-sdkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B7854421C77FAE0043EA0C /* Test_Ori_ios_sdkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Ori_ios_sdkUITests.swift; sourceTree = "<group>"; };
 		26B7854621C77FAE0043EA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FABDD421CBC4350029A71D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		452612F8B53B32572FC3AE75 /* Pods-Test-Ori-ios-sdkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-Ori-ios-sdkTests.debug.xcconfig"; path = "Target Support Files/Pods-Test-Ori-ios-sdkTests/Pods-Test-Ori-ios-sdkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		825940298485A4F86B85A552 /* Pods-Test-Ori-ios-sdkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-Ori-ios-sdkTests.release.xcconfig"; path = "Target Support Files/Pods-Test-Ori-ios-sdkTests/Pods-Test-Ori-ios-sdkTests.release.xcconfig"; sourceTree = "<group>"; };
 		A290B4036AA3BC2A503AF9F6 /* Pods_Test_Ori_ios_sdkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Ori_ios_sdkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +122,7 @@
 				26B7852B21C77FAE0043EA0C /* Assets.xcassets */,
 				26B7852D21C77FAE0043EA0C /* LaunchScreen.storyboard */,
 				26B7853021C77FAE0043EA0C /* Info.plist */,
+				26FABDD421CBC4350029A71D /* SecondViewController.swift */,
 			);
 			path = "Test-Ori-ios-sdk";
 			sourceTree = "<group>";
@@ -152,7 +155,6 @@
 				07C6B160A8FE774291D1FDE4 /* Pods-Test-Ori-ios-sdkUITests.debug.xcconfig */,
 				B9CE6A11AE4DDBDE006E6333 /* Pods-Test-Ori-ios-sdkUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -398,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FABDD521CBC4350029A71D /* SecondViewController.swift in Sources */,
 				26B7852721C77FAD0043EA0C /* ViewController.swift in Sources */,
 				26B7852521C77FAD0043EA0C /* AppDelegate.swift in Sources */,
 			);

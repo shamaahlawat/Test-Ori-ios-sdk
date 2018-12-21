@@ -1,25 +1,17 @@
-//
-//  ViewController.swift
-//  Test-Ori-ios-sdk
-//
-//  Created by Shama Ahlawat on 17/12/18.
-//  Copyright © 2018 oriserve. All rights reserved.
-//
-
 import UIKit
 import Ori_ios_sdk
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        let mystring = Service.doSomething()
-        print(mystring)
+//      print(Service.webViewDidStartLoad())
+//        let x = Service()
+//        print(x)
         let test = Test.testSomething()
         print(test)
-        
     }
 
 //        2ND HALF
@@ -48,22 +40,24 @@ class ViewController: UIViewController {
     
     @IBAction func button(_ sender: UIButton) {
 //        let button = UIButton()
-        let button:UIButton = UIButton(frame: CGRect(x: 100, y: 400, width: 100, height: 50))
-        button.setTitle("Add", for: .normal)
-        button.backgroundColor = UIColor.red
-         print("function working")
-        button.addTarget(self, action:#selector(click(_:)), for: .touchUpInside)
-        self.view.addSubview(button)
+//        let button:UIButton = UIButton(frame: CGRect(x: 100, y: 400, width: 103, height: 45))
+//        button.setTitle("Add", for: .normal)
+//        button.backgroundColor = UIColor.red
+//         print("When ist button pressed")
+//        button.addTarget(self, action:#selector(click(_:)), for: .touchUpInside)
+//        self.view.addSubview(button)
+        
+        performSegue(withIdentifier: "segue", sender: self)
         }
     
-       @objc func click(_: UIButton!) {
-        print("button clicked")
-    }
+//       @objc func click(_: UIButton!) {
+//        print("When second button pressed")
+//        Service.init()
+//    }
     
-    
-    //When we need to pass parameters
+//When we need to pass parameters
 //    self.addTarget(self, action: myAction, for: UIControlledEvent)
-//
+    
 //    myAction(){
 //    @obj.methodYouWantToCall(//parameters//)
 //    }

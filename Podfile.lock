@@ -31,7 +31,7 @@ CHECKOUT OPTIONS:
     :commit: 0c6cce5335f13cd3e052d7c76965953a869e07e3
     :git: https://github.com/shamaahlawat/Demo.git
   Ori-ios-sdk:
-    :commit: a5a5153665a52c65831b05043f554213dd69e71c
+    :commit: 20f1327a9200d13d362bd43d09403b1c3c71cc65
     :git: https://github.com/shamaahlawat/Ori-ios-sdk.git
 
 SPEC CHECKSUMS:

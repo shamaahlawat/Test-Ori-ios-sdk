@@ -11,6 +11,6 @@ import Foundation
 public class Test {
     private init() {}
     public static func testSomething() -> String {
-        return "do something for us"
+        return "Test something for us"
     }
 }
