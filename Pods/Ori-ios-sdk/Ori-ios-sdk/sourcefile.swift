@@ -9,21 +9,19 @@
 import Foundation
 import WebKit
 
-public class Service {
+public class ChatbotService {
     @IBOutlet public var webview: WKWebView!
 
     public init() {
-//         let htmlpath = Bundle.main.path(forResource: "index", ofType: "html")
-//         let url = URL(fileURLWithPath : htmlpath!)
-//        print(url)
-//         let request = URLRequest(url: url)
-//        print(request)
+         let htmlpath = Bundle.main.path(forResource: "index", ofType: "html")
+        print(htmlpath)
+         let url = URL(fileURLWithPath : htmlpath!)
+        print(url)
+         let request = URLRequest(url: url)
+        print(request)
 //         webview.load(request)
-////        let webview = self.webview.load(request)
-//        print("webview")
-            let url = URL(string: "http://www.google.com/")
-            print(url)
-//            webview.load(URLRequest(url: url!))
+        let webview = self.webview.load(request)
+        print(webview)
         
     }
     

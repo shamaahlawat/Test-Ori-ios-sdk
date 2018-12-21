@@ -47,7 +47,7 @@ class ViewController: UIViewController {
 //        button.addTarget(self, action:#selector(click(_:)), for: .touchUpInside)
 //        self.view.addSubview(button)
         
-        performSegue(withIdentifier: "segue", sender: self)
+//        performSegue(withIdentifier: "segue", sender: self)
         }
     
 //       @objc func click(_: UIButton!) {
